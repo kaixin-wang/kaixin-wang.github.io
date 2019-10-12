@@ -4,11 +4,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "Los Angeles, United States"
+locale                   : "en-US"
 title                    : "Kaixin Wang"
 title_separator          : "-"
 name                     : &name "Kaixin Wang"
-description              : &description "personal description"
+description              : &description "Kaixin's Personal Website"
 url                      : https://kaixin-wang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "kaixin-wang/kaixin-wang.github.io"
@@ -38,7 +38,7 @@ staticman:
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email                : "kaixinwang@ucla.edu"
   generatedFields:
     date:
       type               : "date"
@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Kaixin Wang"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Kaixin Wang's Personal Website"
   location         : "Los Angeles, United States"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -94,7 +94,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "kaixin-wang"
+  github           : "academicpages"
   google_plus      :
   keybase          :
   instagram        :
@@ -185,37 +185,62 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-
-
+    
 # Defaults
 defaults:
-  # _biography
+  # _posts
   - scope:
       path: ""
-      type: Biography
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _research
+  # _publications
   - scope:
       path: ""
-      type: Research
+      type: publications
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _resume
+  # _portfolio
   - scope:
       path: ""
-      type: Resume/CV
+      type: portfolio
     values:
       layout: single
       author_profile: true
       share: true
       comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:
