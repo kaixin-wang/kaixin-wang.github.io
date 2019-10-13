@@ -3,7 +3,7 @@ title: "House Price Prediction Project"
 collection: research
 permalink: /research/HousePricePrediction
 excerpt: 'Predicting the house price at Iowa based on a large dataset.'
-date: Winter 2019
+date: "Winter 2019"
 ---
 This paper is about the number 3. The number 4 is left for future work.
 
