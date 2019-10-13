@@ -1,7 +1,7 @@
 ---
 title: "Paper Title Number 3"
 collection: research
-permalink: /research/research-1.md
+permalink: /research/research-1
 excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
 date: 2015-10-01
 venue: 'Journal 1'
