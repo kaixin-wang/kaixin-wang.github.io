@@ -1,7 +1,7 @@
 ---
 title: "House Price Prediction Project"
-collection: research
-permalink: /research/HousePricePrediction
+collection: projects
+permalink: /projects/HousePricePrediction
 excerpt: 'Predicting the house price at Iowa based on a large dataset.'
 
 ---
