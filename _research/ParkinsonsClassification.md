@@ -2,7 +2,8 @@
 title: "Parkinson's Disease Classification Project"
 collection: research
 permalink: /research/ParkinsonsClassification
-excerpt: 'Classfying if a person has the Parkinson's disease based on data collected from experiments.'
+excerpt: 'Classifying if a person has the Parkinson's disease based on data collected from experiments.'
+
 ---
 
 This paper is about the number 3. The number 4 is left for future work.
