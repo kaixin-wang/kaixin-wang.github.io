@@ -1,8 +1,8 @@
 ---
-title: "Paper Title Number 3"
+title: "CPI Prediction Project"
 collection: research
-permalink: /research/research-2
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
+permalink: /research/CPIPrediction
+excerpt: 'Prediction of the CPI.'
 date: 2015-10-01
 venue: 'Journal 1'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
