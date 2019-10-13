@@ -1,7 +1,7 @@
 ---
 title: "Online Statistical Cookbook Reference (OSCR) project"
-collection: projects
-permalink: /projects/OSCR
+collection: research
+permalink: /research/OSCR
 excerpt: 'Building a statistical learning platform for social sciences, with data science languages such as Python, R and Excel, Tableau.'
 ---
 This paper is about the number 3. The number 4 is left for future work.
