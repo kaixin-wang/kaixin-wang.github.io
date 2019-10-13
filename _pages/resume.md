@@ -27,7 +27,7 @@ Undergraduate Researcher at University of California, Los Angeles
   * Description: build a statistical learning platform for social sciences; languages used include *Python*, *R*, *Excel* and *Tableau*. 
   * Supervisor: Professor Miles Chen
   
-Work experience
+Employments
 ======
 * North Valley Research Inc., *Data Engineer Intern*
   * Duties included: Data Modeling, Data Mining, Machine Learning algorithm development, Data Analysis and Optimization
@@ -48,7 +48,7 @@ Skills
   * Python: scikit-learn, keras, TensorFlow, pandas, matplotlib, seaborn
   * R: ggplot2, dplyr, tidy
   
-Service and Leadership
+Leadership & Community Services
 ======
 
 To Be Updated.
