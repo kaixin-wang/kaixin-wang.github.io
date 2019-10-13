@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "Resume"
+permalink: /resume/
 author_profile: true
 redirect_from:
   - /resume
@@ -11,48 +11,42 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. Statistics & B.S. Applied Mathematics, University of California, Los Angeles (March 2020)
+* Visiting Undergraduate, Stanford University (Summer 2017 & Summer 2018)
+* Transfer Undergraduate, De Anza College (June 2018)
 
+Research
+======
+Undergraduate Researcher at University of California, Los Angeles
+
+* Crack detection and crack length estimation project
+  * Description: locate the cracks and estimate the length of each crack in an armor based on the digital CT scans
+  * Supervisor: Professor Frederic (Rick) Paik Schoenberg
+  
+* Online Statistical Cookbook Reference (OSCR) project 
+  * Description: build a statistical learning platform for social sciences; languages used include *Python*, *R*, *Excel* and *Tableau*. 
+  * Supervisor: Professor Miles Chen
+  
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* North Valley Research Inc., *Data Engineer Intern*
+  * Duties included: Data Modeling, Data Mining, Machine Learning algorithm development, Data Analysis and Optimization
+  * Supervisor: Shanrui Zhang
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* University of California, Los Angeles, *Reader at the Department of Statistics*
+  * Duties included: grading the assignments and quizzes of around seventy students in an upper-division Statistics course
+  * Supervisor: Professor Akram Almohalwas
+  
+ * De Anza College, *Mathematics, Statisitcs and Chemistry Tutor*
+  * Duties included: helping students at the drop-in tables and meeting with students on a weekly basis
+  * Supervisor: Chanel Huynh 
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Programming languages: Python, R, C++, Java, MATLAB
+* Packages: 
+  * Python: scikit-learn, keras, TensorFlow, pandas, matplotlib, seaborn
+  * R: ggplot2, dplyr, tidy
   
 Service and leadership
 ======
