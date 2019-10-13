@@ -1,8 +1,8 @@
 ---
-title: "Parkinson\'s Disease Classification Project"
+title: "Parkinson's Disease Classification Project"
 collection: research
 permalink: /research/ParkinsonsClassification
-excerpt: 'Classifying if a person has the Parkinson's disease based on data collected from experiments.'
+excerpt: "Classifying if a person has the Parkinson's disease based on data collected from experiments."
 ---
 
 
