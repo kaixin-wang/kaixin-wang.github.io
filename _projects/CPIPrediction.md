@@ -1,7 +1,7 @@
 ---
 title: "CPI Prediction Project"
-collection: research
-permalink: /research/CPIPrediction
+collection: projects
+permalink: /projects/CPIPrediction
 excerpt: 'Prediction of the CPI.'
 
 ---
