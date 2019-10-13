@@ -38,8 +38,8 @@ Work experience
   * Supervisor: Professor Akram Almohalwas
   
  * De Anza College, *Mathematics, Statisitcs and Chemistry Tutor*
-  * Duties included: helping students at the drop-in tables and meeting with students on a weekly basis
-  * Supervisor: Chanel Huynh 
+    * Duties included: helping students at the drop-in tables and meeting with students on a weekly basis
+    * Supervisor: Chanel Huynh 
   
 Skills
 ======
@@ -48,6 +48,7 @@ Skills
   * Python: scikit-learn, keras, TensorFlow, pandas, matplotlib, seaborn
   * R: ggplot2, dplyr, tidy
   
-Service and leadership
+Service and Leadership
 ======
-* Currently signed in to 43 different slack teams
+
+To Be Updated.
