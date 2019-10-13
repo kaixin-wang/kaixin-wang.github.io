@@ -1,6 +1,6 @@
 ---
 title: "Paper Title Number 3"
-collection: projects
+collection: publications
 permalink: /projects/project-1.md
 excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
 date: 2015-10-01
