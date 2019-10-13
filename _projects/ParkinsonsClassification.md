@@ -1,7 +1,7 @@
 ---
 title: "Parkinson's Disease Classification Project"
-collection: research
-permalink: /research/ParkinsonsClassification
+collection: projects
+permalink: /projects/ParkinsonsClassification
 excerpt: "Classifying if a person has the Parkinson's disease based on data collected from experiments."
 ---
 
