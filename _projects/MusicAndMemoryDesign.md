@@ -88,9 +88,13 @@ Box Plots
 
 The median is represented by the black bar in the middle, where the “box” depicts the 1st and 3rd quantiles. Potential outliers are displayed as black circles.
 
-<img align = "center" src="STATS101B-Project-Code_files/figure-markdown_github/unnamed-chunk-2-1.png" alt="Boxplot for each individual Latin Square"  />
+<center>
+  <img align = "center" src="STATS101B-Project-Code_files/figure-markdown_github/unnamed-chunk-2-1.png" alt="Boxplot for each individual Latin Square"  />
+</center>
 
-<img src="STATS101B-Project-Code_files/figure-markdown_github/unnamed-chunk-2-2.png" alt="Boxplot for each individual Latin Square"  />
+<center>
+  <img src="STATS101B-Project-Code_files/figure-markdown_github/unnamed-chunk-2-2.png" alt="Boxplot for each individual Latin Square"  />
+</center>
 <p class="caption">
 Figure 2: Boxplot for each individual Latin Square
 </p>
@@ -465,8 +469,9 @@ The ANOVA tables show that treatment is not significant in Latin Squares 2,3,4. 
 
 Multiple groups comparison
 --------------------------
-
+<center>
 <img src="STATS101B-Project-Code_files/figure-markdown_github/unnamed-chunk-7-1.png" alt="Multiple groups comparison on Latin Square 1 and 5"  />
+  </center>
 <p class="caption">
 Figure 4: Multiple groups comparison on Latin Square 1 and 5
 </p>
@@ -476,7 +481,9 @@ Finding treatment significant in Latin square 1 and 5, we proceed to conducting 
 Residual Diagnostics
 --------------------
 
+<center>
 <img src="STATS101B-Project-Code_files/figure-markdown_github/unnamed-chunk-8-1.png" alt="Diagnostics plots for model difference ~ treatment + ID + time"  />
+  </center>
 <p class="caption">
 Figure 5: Diagnostics plots for model difference ~ treatment + ID + time
 </p>
@@ -499,7 +506,9 @@ It is widely acknowledged that the memory problem, as one of the main mental dom
 
 To discuss the problem of our research and the possible further steps, we visualized the the age distribution of 25 senior male islanders that we sampled during the experiment. As the bar plot of the distribution shows, two points are clear. For age distribution, most of the senior male islanders have the age between 65 to 80 years old. Also, we primarily focus on the investigation of male.
 
+<center>
 <img src="STATS101B-Project-Code_files/figure-markdown_github/unnamed-chunk-9-1.png" alt="Age distribution and results of the favorite music type survey"  />
+  <center>
 <p class="caption">
 Figure 6: Age distribution and results of the favorite music type survey
 </p>
