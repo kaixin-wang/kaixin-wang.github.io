@@ -1,7 +1,7 @@
 ---
 title: "Music And Memory Project"
 collection: projects
-permalink: /projects/ExperimentalDesign
+permalink: /projects/MusicAndMemory
 excerpt: "Music and Memory Experimental Design Project"
 ---
 
