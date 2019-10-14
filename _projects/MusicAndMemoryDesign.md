@@ -5,12 +5,11 @@ permalink: /projects/ExperimentalDesign
 excerpt: "Music and Memory Experimental Design Project"
 ---
 
-Music and Memory Experimental Design Project
+Music and Memory
 ================
+Lizhou Fan, Kaixin Wang, Huizi Yu
 
-Authors: Lizhou Fan, Kaixin Wang, Huizi Yu
-
-Date: Statistics 101B - Spring 2019
+Statistics 101B - Spring 2019
 
 Abstract
 ========
@@ -41,14 +40,15 @@ Design and Model
 
 The Randomized Latin Square design is helpful when blocking two sources of variation, person to person variability and order (time) of treatment. Controlling these two factors, we would be more likely to detect a significant result of the effect of our treatment, type of music. Thus, we create a model accordingly:
 
-*y*<sub>*i**j**k*</sub> = *μ* + *α*<sub>*i*</sub> + *β*<sub>*j*</sub> + *γ*<sub>*k*</sub> + *ϵ*<sub>*i**j**k*</sub>,  *w**h**e**r**e* *i*, *j*, *k* = 1, 2, 3, 4, 5
+*y*<sub>*i**j**k*</sub> = *μ* + *α*<sub>*i*</sub> + *β*<sub>*j*</sub> + *γ*<sub>*k*</sub> + *ϵ*<sub>*i**j**k*</sub>,  *w**h**e**r**e* *i*, *j*, *k* = 1, 2, 3, 4, 5
 
 In the model, *α* and *β* are the two blocking factors, while *γ* represents the treatment. Moreover, we held-constant three variables, including gender (male), region (the town of Macondo), and age (between 65 and 89).
 
 We created a 5x5 Latin Square matrix with each treatment occurring once per row, and once per column. As the visualization below shows, these music and non-music treatments were each assigned a letter from A to E, i.e. No music (A), Classical Music (B), Country Music (C), Dance Music (D), and Heavy Metal Music (E).
 
-<img src="Square.png" alt="Latin Square Design" width = "350/>
-                                                           
+<center>
+  <img src="Square.png" alt="Latin Square Design" width = "350/>
+                                                           </center>
  <p class="caption">
 Figure 1: Latin Square Design
 </p>
@@ -88,7 +88,7 @@ Box Plots
 
 The median is represented by the black bar in the middle, where the “box” depicts the 1st and 3rd quantiles. Potential outliers are displayed as black circles.
 
-<img align = "center" src="squares.png" alt="Boxplot for each individual Latin Square"  />
+<img align = "center" src="STATS101B-Project-Code_files/figure-markdown_github/unnamed-chunk-2-1.png" alt="Boxplot for each individual Latin Square"  />
 
 <img src="STATS101B-Project-Code_files/figure-markdown_github/unnamed-chunk-2-2.png" alt="Boxplot for each individual Latin Square"  />
 <p class="caption">
@@ -99,7 +99,7 @@ Figure 2: Boxplot for each individual Latin Square
 
 The median is represented by the black bar in the middle, where the “box” depicts the 1st and 3rd quantiles. Potential outliers are displayed as black circles.
 
-<img src="square.png" alt="Boxplot for all five Latin Squares"  />
+<img src="STATS101B-Project-Code_files/figure-markdown_github/unnamed-chunk-5-1.png" alt="Boxplot for all five Latin Squares"  />
 <p class="caption">
 Figure 3: Boxplot for all five Latin Squares
 </p>
@@ -127,7 +127,7 @@ We divided our analysis of variance (ANOVA) into two sections:
 </colgroup>
 <thead>
 <tr class="header">
-<th align="center"> </th>
+<th align="center"> </th>
 <th align="center">Df</th>
 <th align="center">Sum Sq</th>
 <th align="center">Mean Sq</th>
@@ -185,7 +185,7 @@ We divided our analysis of variance (ANOVA) into two sections:
 </colgroup>
 <thead>
 <tr class="header">
-<th align="center"> </th>
+<th align="center"> </th>
 <th align="center">Df</th>
 <th align="center">Sum Sq</th>
 <th align="center">Mean Sq</th>
@@ -243,7 +243,7 @@ We divided our analysis of variance (ANOVA) into two sections:
 </colgroup>
 <thead>
 <tr class="header">
-<th align="center"> </th>
+<th align="center"> </th>
 <th align="center">Df</th>
 <th align="center">Sum Sq</th>
 <th align="center">Mean Sq</th>
@@ -301,7 +301,7 @@ We divided our analysis of variance (ANOVA) into two sections:
 </colgroup>
 <thead>
 <tr class="header">
-<th align="center"> </th>
+<th align="center"> </th>
 <th align="center">Df</th>
 <th align="center">Sum Sq</th>
 <th align="center">Mean Sq</th>
@@ -359,7 +359,7 @@ We divided our analysis of variance (ANOVA) into two sections:
 </colgroup>
 <thead>
 <tr class="header">
-<th align="center"> </th>
+<th align="center"> </th>
 <th align="center">Df</th>
 <th align="center">Sum Sq</th>
 <th align="center">Mean Sq</th>
@@ -417,7 +417,7 @@ We divided our analysis of variance (ANOVA) into two sections:
 </colgroup>
 <thead>
 <tr class="header">
-<th align="center"> </th>
+<th align="center"> </th>
 <th align="center">Df</th>
 <th align="center">Sum Sq</th>
 <th align="center">Mean Sq</th>
@@ -488,7 +488,7 @@ Discussion
 
 Using a complete random 5 times 5 Latin-square design with 5 replicates, we collected data from 25 male islanders. After running our selected tests on them, we did a bunch of analysis accordingly. We used box-plot for exploration. Although there is no significant difference among the mean of 5 music treatments in Latin square 2,3 and 4, In Latin square 1 and 5, there seems to exist a larger disparity between treatments. Therefore, we further our study using ANOVA which demonstrated significant results of Latin square 1 and 5 and confirmed our finding in the explorative analysis.
 
-The next step of our analysis, the multiple groups comparison, allowed us to further investigate which two music genres lead to statistically different changes in memory performance. As the line plots indicated, both the mean of Country Music and Classical Music and the mean of Heavy Metal Music and Classical Music are significantly effective on the change of memory test performance. Also, after checking the assumptions of our linear model of , we then conclude that our model, *y*<sub>*i**j**k*</sub> = *μ* + *α*<sub>*i*</sub> + *β*<sub>*j*</sub> + *γ*<sub>*k*</sub> + *ϵ*<sub>*i**j**k*</sub>,  *w**h**e**r**e* *i*, *j*, *k* = 1, 2, 3, 4, 5, in which *α* and *β* are the two blocking factors and *γ* represents the treatment, is valid.
+The next step of our analysis, the multiple groups comparison, allowed us to further investigate which two music genres lead to statistically different changes in memory performance. As the line plots indicated, both the mean of Country Music and Classical Music and the mean of Heavy Metal Music and Classical Music are significantly effective on the change of memory test performance. Also, after checking the assumptions of our linear model of , we then conclude that our model, *y*<sub>*i**j**k*</sub> = *μ* + *α*<sub>*i*</sub> + *β*<sub>*j*</sub> + *γ*<sub>*k*</sub> + *ϵ*<sub>*i**j**k*</sub>,  *w**h**e**r**e* *i*, *j*, *k* = 1, 2, 3, 4, 5, in which *α* and *β* are the two blocking factors and *γ* represents the treatment, is valid.
 
 However, our results showed that there is limited evidence supporting music's significance in affecting memory test score. This coincides with the current controversial view on music's effectiveness in improving memory. There are a few drawbacks in our design that might compromise the results. The Latin Square design we employed does not assume interaction between the rows, columns and the treatment factor. However, it maybe possible that some individuals performed better in memory test at specific time of the day. Moreover, although literature supported that memory performance differs at different times of the day, it is not a significant blocking factor in our model. As a result, choosing another blocking factor may render treatment more significant. Another potential aspect that may influence our result is the islanders' ability to learn the Memory Test as the same test is repeated 5 times throughout the day.
 
