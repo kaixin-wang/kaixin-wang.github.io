@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Kaixin Wang's Website"
+title: "Homepage of Kaixin Wang's Website"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
