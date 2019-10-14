@@ -1,8 +1,16 @@
-Music and Memory
-================
-Lizhou Fan, Kaixin Wang, Huizi Yu
+---
+title: "Music And Memory Project"
+collection: projects
+permalink: /projects/ExperimentalDesign
+excerpt: "Music and Memory Experimental Design Project"
+---
 
-Statistics 101B - Spring 2019
+Music and Memory Experimental Design Project
+================
+
+Authors: Lizhou Fan, Kaixin Wang, Huizi Yu
+
+Date: Statistics 101B - Spring 2019
 
 Abstract
 ========
