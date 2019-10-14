@@ -6,7 +6,9 @@ excerpt: "Music and Memory Experimental Design Project"
 ---
 
 Music and Memory
+
 Authors: Lizhou Fan, Kaixin Wang, Huizi Yu
+
 Time: Statistics 101B - Spring 2019
 
 Abstract
