@@ -48,10 +48,11 @@ We created a 5x5 Latin Square matrix with each treatment occurring once per row,
 
 <center>
   <img src="Square.png" alt="Latin Square Design" width = "350"/>
-                                                           </center>
+                                                           
  <p class="caption">
-Figure 1: Latin Square Design
-</p>
+  Figure 1: Latin Square Design
+  </p>
+</center>
                    
 Then we created 5 replicates of the 5x5 Latin Square. To make a complete random Latin-square design, we implemented the random assignment method to shuffle the rows and columns. Using R, we assigned the numbers from 1 to 25 to the 25 participants and generated a random sequence (A) of number from 1 to 25 (`set.seed(100000)`). Then we generated a random sequence (B) of 1 to 5 (`set.seed(100000)`). We assigned the participants indexed with the first five number of sequence A to the Latin Square replicate indexed with the first number in sequence B and the next five in A to the second number in B, etc. Finally, we randomly permuted the columns, randomly permute the rows, and then assign the treatments to the Latin letters in a random fashion. We ensured each treatment occur once in each row and each column.
 
@@ -94,19 +95,23 @@ The median is represented by the black bar in the middle, where the “box” de
 
 <center>
   <img src="STATS101B-Project-Code_files/figure-markdown_github/unnamed-chunk-2-2.png" alt="Boxplot for each individual Latin Square"  />
-</center>
+
 <p class="caption">
 Figure 2: Boxplot for each individual Latin Square
 </p>
+
+</center>
 
 **Boxplot for all five Latin Squares combined:**
 
 The median is represented by the black bar in the middle, where the “box” depicts the 1st and 3rd quantiles. Potential outliers are displayed as black circles.
 
+<center>
 <img src="STATS101B-Project-Code_files/figure-markdown_github/unnamed-chunk-5-1.png" alt="Boxplot for all five Latin Squares"  />
 <p class="caption">
 Figure 3: Boxplot for all five Latin Squares
 </p>
+</center>
 
 We began our exploratory data analysis by looking at the boxplots for each Latin Square and the boxplot for all five Latin Squares combined. We observe no significant difference in the mean of 5 music treatments in Latin square 2, 3 and 4. In Latin square 1 and 5, there appears to be a larger disparity between treatments. The boxplot for combined model showed no significant difference in mean for each treatment either. We proceed to ANOVA for further analysis.
 
@@ -471,11 +476,12 @@ Multiple groups comparison
 --------------------------
 <center>
 <img src="STATS101B-Project-Code_files/figure-markdown_github/unnamed-chunk-7-1.png" alt="Multiple groups comparison on Latin Square 1 and 5"  />
-  </center>
+
 <p class="caption">
 Figure 4: Multiple groups comparison on Latin Square 1 and 5
 </p>
-
+  </center>
+  
 Finding treatment significant in Latin square 1 and 5, we proceed to conducting post-hoc TukeyHSD test to investigate which two music genres lead to statistically different changes in memory performance. From the plot for Latin Square 1, the two confidence intervals for pairwise comparison for "Country Music and Classical Music", and for "Heavy Metal Music and Classical Music” do not contain 0. This indicates that for Latin square 1, the mean of Country Music and Classical Music are statistically significant, as well as the mean of Heavy Metal Music and Classical Music. However, in Latin square 5, all pairwise comparison intervals contain 0. Thus, we conclude for Latin Square 5, none of the 5 treatment means are statistically different from each other.
 
 Residual Diagnostics
@@ -483,11 +489,12 @@ Residual Diagnostics
 
 <center>
 <img src="STATS101B-Project-Code_files/figure-markdown_github/unnamed-chunk-8-1.png" alt="Diagnostics plots for model difference ~ treatment + ID + time"  />
-  </center>
+
 <p class="caption">
 Figure 5: Diagnostics plots for model difference ~ treatment + ID + time
 </p>
-
+  </center>
+  
 Based on the residuals vs. fitted values plot, there is no certain pattern in the graph, and the average value of error terms is mostly around zero. This indicates that the assumption of independent error terms with average value of zero is satisfied. Based on the normal QQ-plot, we observe that most of the data points are around the 45-degree line through the origin. This indicates that the assumption of normally distributed error terms is mostly satisfied. Based on the $\\sqrt{standardized\\ residuals}$ vs. fitted values plot, we observe that there is no obvious trend in the value of $\\sqrt{standardized\\ residuals}$. This indicates that the assumption of constant variance of error terms is also mostly satisfied.
 
 Discussion
@@ -508,10 +515,11 @@ To discuss the problem of our research and the possible further steps, we visual
 
 <center>
 <img src="STATS101B-Project-Code_files/figure-markdown_github/unnamed-chunk-9-1.png" alt="Age distribution and results of the favorite music type survey"  />
-  <center>
+
 <p class="caption">
 Figure 6: Age distribution and results of the favorite music type survey
 </p>
+  </center>
 
 Since we are able to easily access the females on the island, we can choose to sample female senior islanders in the experiment. In further studies, we consider sample senior female islanders to investigate whether music has effects on memory for them. It would also be helpful to further investigate a larger range of age. It is important to notice that, we accept individual variances, as the latin-square design can handle them. To increase power, we would also like to repeat our experiment with more Latin Squares and more samples.
 
