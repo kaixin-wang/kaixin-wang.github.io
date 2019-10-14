@@ -7,3 +7,5 @@ excerpt: 'Prediction of the CPI.'
 ---
 
 Prediction of the CPI based on macroeconomics predictors such as GDP, expenditure on education, tourism, etc.
+
+More details to be updated.
