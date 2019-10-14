@@ -47,7 +47,7 @@ In the model, *α* and *β* are the two blocking factors, while *γ* represents 
 We created a 5x5 Latin Square matrix with each treatment occurring once per row, and once per column. As the visualization below shows, these music and non-music treatments were each assigned a letter from A to E, i.e. No music (A), Classical Music (B), Country Music (C), Dance Music (D), and Heavy Metal Music (E).
 
 <center>
-  <img src="Square.png" alt="Latin Square Design" width = "350/>
+  <img src="Square.png" alt="Latin Square Design" width = "350"/>
                                                            </center>
  <p class="caption">
 Figure 1: Latin Square Design
