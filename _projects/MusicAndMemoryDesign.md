@@ -47,9 +47,8 @@ In the model, *α* and *β* are the two blocking factors, while *γ* represents 
 
 We created a 5x5 Latin Square matrix with each treatment occurring once per row, and once per column. As the visualization below shows, these music and non-music treatments were each assigned a letter from A to E, i.e. No music (A), Classical Music (B), Country Music (C), Dance Music (D), and Heavy Metal Music (E).
 
-<center>
-  <img src="Square.png" alt="Latin Square Design" width = "350/>
-                                                           </center>
+<img src="Square.png" alt="Latin Square Design" width = "350/>
+                                                           
  <p class="caption">
 Figure 1: Latin Square Design
 </p>
@@ -89,7 +88,7 @@ Box Plots
 
 The median is represented by the black bar in the middle, where the “box” depicts the 1st and 3rd quantiles. Potential outliers are displayed as black circles.
 
-<img align = "center" src="STATS101B-Project-Code_files/figure-markdown_github/unnamed-chunk-2-1.png" alt="Boxplot for each individual Latin Square"  />
+<img align = "center" src="squares.png" alt="Boxplot for each individual Latin Square"  />
 
 <img src="STATS101B-Project-Code_files/figure-markdown_github/unnamed-chunk-2-2.png" alt="Boxplot for each individual Latin Square"  />
 <p class="caption">
@@ -100,7 +99,7 @@ Figure 2: Boxplot for each individual Latin Square
 
 The median is represented by the black bar in the middle, where the “box” depicts the 1st and 3rd quantiles. Potential outliers are displayed as black circles.
 
-<img src="STATS101B-Project-Code_files/figure-markdown_github/unnamed-chunk-5-1.png" alt="Boxplot for all five Latin Squares"  />
+<img src="square.png" alt="Boxplot for all five Latin Squares"  />
 <p class="caption">
 Figure 3: Boxplot for all five Latin Squares
 </p>
