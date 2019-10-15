@@ -40,7 +40,7 @@ Design and Model
 
 The Randomized Latin Square design is helpful when blocking two sources of variation, person to person variability and order (time) of treatment. Controlling these two factors, we would be more likely to detect a significant result of the effect of our treatment, type of music. Thus, we create a model accordingly:
 
-*y*<sub>*i**j**k*</sub> = *μ* + *α*<sub>*i*</sub> + *β*<sub>*j*</sub> + *γ*<sub>*k*</sub> + *ϵ*<sub>*i**j**k*</sub>,  *where* *i*, *j*, *k* = 1, 2, 3, 4, 5
+*y*<sub>*ijk*</sub> = *μ* + *α*<sub>*i*</sub> + *β*<sub>*j*</sub> + *γ*<sub>*k*</sub> + *ϵ*<sub>*ijk*</sub>,  *where* *i*, *j*, *k* = 1, 2, 3, 4, 5
 
 In the model, *α* and *β* are the two blocking factors, while *γ* represents the treatment. Moreover, we held-constant three variables, including gender (male), region (the town of Macondo), and age (between 65 and 89).
 
