@@ -77,22 +77,19 @@ CPI.describe()
 ```
 
 
-
-
 <div>
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
-
     .dataframe thead th {
         text-align: left;
     }
-
     .dataframe tbody tr th {
         vertical-align: top;
     }
 </style>
+    
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -906,7 +903,7 @@ plt.show()
 ```
 
 
-![png](output_31_0.png)
+![png](/_projects/CPIImages/output_31_0.png)
 
 
  - For all G7 countries except Japan and United Kingdom, the CPI had continuously increased from 1995 to 2014, but the rate of increment had decreased from 2015 to 2017. 
@@ -933,7 +930,7 @@ plt.show()
 ```
 
 
-![png](output_33_0.png)
+![png](/_projects/CPIImages/output_33_0.png)
 
 
 # come back later
@@ -982,7 +979,7 @@ corr
 ```
 
 
-![png](output_36_0.png)
+![png](/_projects/CPIImages/output_36_0.png)
 
 
 
@@ -1142,7 +1139,7 @@ corr
 ```
 
 
-![png](output_37_0.png)
+![png](/_projects/CPIImages/output_37_0.png)
 
 
 
@@ -1733,11 +1730,11 @@ plt.show()
 ```
 
 
-![png](output_45_0.png)
+![png](/_projects/CPIImages/output_45_0.png)
 
 
 
-![png](output_45_1.png)
+![png](/_projects/CPIImages/output_45_1.png)
 
 
 - GDP
@@ -1783,11 +1780,11 @@ plt.show()
 ```
 
 
-![png](output_47_0.png)
+![png](/_projects/CPIImages/output_47_0.png)
 
 
 
-![png](output_47_1.png)
+![png](/_projects/CPIImages/output_47_1.png)
 
 
 - GDP
@@ -1830,34 +1827,11 @@ plt.show()
 ```
 
 
-![png](output_49_0.png)
+![png](/_projects/CPIImages/output_49_0.png)
 
 
 
-![png](output_49_1.png)
-
-
-# come back later
-- GDP
-    - the median is around 5500 dollars.
-- Energy
-    - the median is around 20000 petajoules.
-- Tech
-    - the outliers are expenditure on tech of China in recent years, which exceeded other BRICS countries.
-    - the median of expenditure on tech is around 1% of GDP.
-- Education
-    - the outliers are expenditure on education of China, which are missing values.
-    - the median of expenditure on education is around 12.5% of government expenditure.
-- Rates
-    - the median of exchange rates is around 14.
-- Internet
-    - the median of internet usage is around 50%.
-- Tourism
-    - the outliers are tourism expenditure of China in recent years, which exceeded other BRICS countries.
-    - the median of tourism expenditure is around 9500 dollars.
-- Health
-    - the median of health expenditure is around 5.6% of GDP.
-
+![png](/_projects/CPIImages/output_49_1.png)
 
 ```python
 sns.pairplot(data = df1, y_vars = ['CPI'], x_vars = ['Year', 'GDP', 'Energy', 'Tech', 'Education', 'Rates', 'Internet', 'Tourism', 'Health'], kind = 'reg')
@@ -1865,7 +1839,7 @@ plt.show()
 ```
 
 
-![png](output_51_0.png)
+![png](/_projects/CPIImages/output_51_0.png)
 
 
 **From this set of scatter plots, we observe that:**
@@ -1879,7 +1853,7 @@ plt.show()
 ```
 
 
-![png](output_53_0.png)
+![png](/_projects/CPIImages/output_53_0.png)
 
 
 **From this set of scatter plots for BRICS countries, we observe that:**
@@ -1893,7 +1867,7 @@ plt.show()
 ```
 
 
-![png](output_55_0.png)
+![png](/_projects/CPIImages/output_55_0.png)
 
 
 **From this set of scatter plots for G7 and BRICS combined, we observe that:**
@@ -2675,7 +2649,7 @@ plt.show()
     
 
 
-![png](output_109_1.png)
+![png](/_projects/CPIImages/output_109_1.png)
 
 
 
@@ -2796,7 +2770,7 @@ plt.show()
     
 
 
-![png](output_112_1.png)
+![png](/_projects/CPIImages/output_112_1.png)
 
 
 
@@ -2940,7 +2914,7 @@ plt.show()
     
 
 
-![png](output_117_1.png)
+![png](/_projects/CPIImages/output_117_1.png)
 
 
 ### Modeling on other countries from G20 (not in G7 nor in BRICS):
@@ -3492,7 +3466,7 @@ plt.show()
     
 
 
-![png](output_127_1.png)
+![png](/_projects/CPIImages/output_127_1.png)
 
 
 ## 6. Results and Analysis:
