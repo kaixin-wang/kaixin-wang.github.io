@@ -11,8 +11,6 @@ Group memebers: Kaixin Wang, Qin Hu, Ruby Zhang, and Emily Suan
 
 Time: Statistics 131 - Spring 2019
 
-[View the project report as a html here.](https://kaixin-wang.github.io/files/CPIPrediction-html.html)
-
 ## 1. Objective:
 Predict CPI (customer price index) of countries using predictors relevant to economic growth. 
 
