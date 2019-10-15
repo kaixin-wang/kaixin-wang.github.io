@@ -74,4 +74,8 @@ Updates
 
 As of Fall 2019, we are wrapping up the first section - *Data Manipulation*, and working on the *Data Modeling and Machine Learning* section.
 
-Our schedule is to finish the *Data Modeling and Machine Learning section* by end of Fall 2019, complete the section of *Data Visualization* by Winter 2020, and put our cookbook into practical use to help students with learning data science by end of Spring 2020.
+Our schedule is for year 2019-2020 is as the following:
+
+- finish *Data Modeling and Machine Learning section* by end of Fall 2019
+- complete the section of *Data Visualization* by Winter 2020
+- put the cookbook into practical use to help students with learning data science by end of Spring 2020
