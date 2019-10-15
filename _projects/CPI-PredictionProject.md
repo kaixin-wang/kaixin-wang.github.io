@@ -1,3 +1,9 @@
+---
+title: "CPI Prediction Project"
+collection: projects
+permalink: /projects/CPIPredictionProject
+excerpt: 'Prediction of the CPI.'
+---
 
 # CPI prediction project - STATS 131
 Group memebers: Kaixin Wang, Qin Hu, Ruby Zhang, and Emily Suan
