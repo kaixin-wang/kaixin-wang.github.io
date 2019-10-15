@@ -1,6 +1,13 @@
+---
+title: "Online Statistical Computing Reference (OSCR) project"
+collection: research
+permalink: /research/OSCR
+excerpt: "Building a statistical learning platform, OSCR, for social sciences"
+---
+
 Online Statistical Computing Reference
-================
-Kaixin Wang
+
+Team contributors: Lizhou Fan, Kaixin Wang, Huizi Yu
 
 Introduction
 ============
