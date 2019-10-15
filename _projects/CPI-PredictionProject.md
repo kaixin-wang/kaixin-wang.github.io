@@ -5,9 +5,11 @@ permalink: /projects/CPIPredictionProject
 excerpt: 'Prediction of the CPI.'
 ---
 
-CPI prediction project
+CPI Prediction Project
 
 Group memebers: Kaixin Wang, Qin Hu, Ruby Zhang, and Emily Suan
+
+Time: Statistics 131 - Spring 2019
 
 ## 1. Objective:
 Predict CPI (customer price index) of countries using predictors relevant to economic growth. 
@@ -932,14 +934,7 @@ for i in range(5):
 plt.show()
 ```
 
-
-![png](/_projects/CPIImages/output_33_0.png)
-
-
-# come back later
-- CPI of all BRICS countries were continuously increased from 1995 to 2017 except China.
-- The line of China is flat before year 2010 because of missing values.
-
+![png](/CPIImages/output_33_0.png)
 
 ```python
 # Final dataframe for modeling:
@@ -982,7 +977,7 @@ corr
 ```
 
 
-![png](/_projects/CPIImages/output_36_0.png)
+![png](/CPIImages/output_36_0.png)
 
 
 
@@ -1140,7 +1135,7 @@ corr
 ```
 
 
-![png](/_projects/CPIImages/output_37_0.png)
+![png](/CPIImages/output_37_0.png)
 
 
 
@@ -1720,36 +1715,10 @@ plt.show()
 ```
 
 
-![png](/_projects/CPIImages/output_45_0.png)
+![png](/CPIImages/output_45_0.png)
 
 
-
-![png](/_projects/CPIImages/output_45_1.png)
-
-
-- GDP
-    - all the outliers are the GDP per capita of USA, which are all above 55000 dollars. 
-    - the median is around 37000 dollars.
-- Energy
-    - except outliers, primary energy production of G7 countries are in the range of 0 to 20000 petajoules.
-    - all the outliers are primary energy production of USA, which are all above 60000 petajoules, obviously higher than other G7 countries.
-    - the median is around 6000 petajoules.
-- Rates
-    - except outliers, exchange rates of G7 countries are close to 1.
-    - all the outliers are the exchange rates of Japan in different years, which are all above 80.  
-- Internet
-    - the only outlier is the internet usage of Italy in early years, but they catched up later.
-    - the median of internet usage is around 75%.
-- Tourism
-    - all the outliers are the tourism expenditure of USA, which are all above 100000 dollars. 
-    - the median of tourism expenditure is around 45000 dollars.
-- Health
-    - all the outliers are the health expenditure of USA, which are all above 14% of GDP. 
-    - the median of health expenditure is around 10.2% of GDP.
-- Tech, Education
-    - no outliers.
-    - the median of expenditure on tech is around 2.1% of GDP.
-    - the median of expenditure on education is around 11% of government expenditure.
+![png](/CPIImages/output_45_1.png)
 
 
 ```python
@@ -1770,11 +1739,11 @@ plt.show()
 ```
 
 
-![png](/_projects/CPIImages/output_47_0.png)
+![png](/CPIImages/output_47_0.png)
 
 
 
-![png](/_projects/CPIImages/output_47_1.png)
+![png](/CPIImages/output_47_1.png)
 
 
 - GDP
@@ -1817,11 +1786,11 @@ plt.show()
 ```
 
 
-![png](/_projects/CPIImages/output_49_0.png)
+![png](/CPIImages/output_49_0.png)
 
 
 
-![png](/_projects/CPIImages/output_49_1.png)
+![png](/CPIImages/output_49_1.png)
 
 ```python
 sns.pairplot(data = df1, y_vars = ['CPI'], x_vars = ['Year', 'GDP', 'Energy', 'Tech', 'Education', 'Rates', 'Internet', 'Tourism', 'Health'], kind = 'reg')
@@ -1829,7 +1798,7 @@ plt.show()
 ```
 
 
-![png](/_projects/CPIImages/output_51_0.png)
+![png](/CPIImages/output_51_0.png)
 
 
 **From this set of scatter plots, we observe that:**
@@ -1843,7 +1812,7 @@ plt.show()
 ```
 
 
-![png](/_projects/CPIImages/output_53_0.png)
+![png](/CPIImages/output_53_0.png)
 
 
 **From this set of scatter plots for BRICS countries, we observe that:**
@@ -1857,7 +1826,7 @@ plt.show()
 ```
 
 
-![png](/_projects/CPIImages/output_55_0.png)
+![png](/CPIImages/output_55_0.png)
 
 
 **From this set of scatter plots for G7 and BRICS combined, we observe that:**
@@ -2760,7 +2729,7 @@ plt.show()
     
 
 
-![png](/_projects/CPIImages/output_112_1.png)
+![png](/CPIImages/output_112_1.png)
 
 
 
@@ -2904,7 +2873,7 @@ plt.show()
     
 
 
-![png](/_projects/CPIImages/output_117_1.png)
+![png](/CPIImages/output_117_1.png)
 
 
 ### Modeling on other countries from G20 (not in G7 nor in BRICS):
@@ -3450,7 +3419,7 @@ plt.show()
     
 
 
-![png](/_projects/CPIImages/output_127_1.png)
+![png](/CPIImages/output_127_1.png)
 
 
 ## 6. Results and Analysis:
@@ -3558,9 +3527,8 @@ plt.show()
 
 ## 8. References:
 
-- Description of CPI data: http://data.un.org/_Docs/SYB/PDFs/SYB61_T19_Consumer%20Price%20Index.pdf
-- G7 countries: https://en.wikipedia.org/wiki/Group_of_Seven
-- BRICS countries: https://en.wikipedia.org/wiki/BRICS
-- G20 countries: https://en.wikipedia.org/wiki/G20
-
-- Factors related to CPI: https://www.investopedia.com/terms/c/consumerpriceindex.asp
+- [Description of CPI data](http://data.un.org/_Docs/SYB/PDFs/SYB61_T19_Consumer%20Price%20Index.pdf)
+- [G7 countries](https://en.wikipedia.org/wiki/Group_of_Seven)
+- [BRICS countries](https://en.wikipedia.org/wiki/BRICS)
+- [G20 countries](https://en.wikipedia.org/wiki/G20)
+- [Factors related to CPI](https://www.investopedia.com/terms/c/consumerpriceindex.asp)
