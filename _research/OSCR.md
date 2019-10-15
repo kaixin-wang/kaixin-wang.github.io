@@ -14,7 +14,11 @@ Introduction
 
 Online Statistical Computing Reference (OSCR) is an online statistical learning platform that students in social sciences could refer to. It is an online cookbook for learning data science in a non-statistical context.
 
+<ceter>
+
 <img src="OSCR.png" alt="Logo of OSCR" style="width:30.0%" />
+
+</center>
 
 The main website of OSCR is publicly available at <https://oscrproject.wixsite.com/website>.
 
