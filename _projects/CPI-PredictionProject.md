@@ -5,7 +5,8 @@ permalink: /projects/CPIPredictionProject
 excerpt: 'Prediction of the CPI.'
 ---
 
-# CPI prediction project - STATS 131
+CPI prediction project
+
 Group memebers: Kaixin Wang, Qin Hu, Ruby Zhang, and Emily Suan
 
 ## 1. Objective:
@@ -905,7 +906,7 @@ plt.show()
 ```
 
 
-![png](/_projects/CPIImages/output_31_0.png)
+![png](CPIImages/output_31_0.png)
 
 
  - For all G7 countries except Japan and United Kingdom, the CPI had continuously increased from 1995 to 2014, but the rate of increment had decreased from 2015 to 2017. 
