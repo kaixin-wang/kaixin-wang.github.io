@@ -11,6 +11,8 @@ Authors: Lizhou Fan, Kaixin Wang, Huizi Yu
 
 Time: Statistics 101B - Spring 2019
 
+[View the final report here.](http://kaixin-wang.github.io/files/MusicAndMemory.pdf)
+
 Abstract
 ========
 
