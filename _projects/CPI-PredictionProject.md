@@ -934,7 +934,7 @@ for i in range(5):
 plt.show()
 ```
 
-![png](/CPIImages/output_33_0.png)
+![png](CPIImages/output_33_0.png)
 
 ```python
 # Final dataframe for modeling:
@@ -977,7 +977,7 @@ corr
 ```
 
 
-![png](/CPIImages/output_36_0.png)
+![png](CPIImages/output_36_0.png)
 
 
 
@@ -1135,7 +1135,7 @@ corr
 ```
 
 
-![png](/CPIImages/output_37_0.png)
+![png](CPIImages/output_37_0.png)
 
 
 
@@ -1715,10 +1715,10 @@ plt.show()
 ```
 
 
-![png](/CPIImages/output_45_0.png)
+![png](CPIImages/output_45_0.png)
 
 
-![png](/CPIImages/output_45_1.png)
+![png](CPIImages/output_45_1.png)
 
 
 ```python
@@ -1739,11 +1739,11 @@ plt.show()
 ```
 
 
-![png](/CPIImages/output_47_0.png)
+![png](CPIImages/output_47_0.png)
 
 
 
-![png](/CPIImages/output_47_1.png)
+![png](CPIImages/output_47_1.png)
 
 
 - GDP
@@ -1786,11 +1786,11 @@ plt.show()
 ```
 
 
-![png](/CPIImages/output_49_0.png)
+![png](CPIImages/output_49_0.png)
 
 
 
-![png](/CPIImages/output_49_1.png)
+![png](CPIImages/output_49_1.png)
 
 ```python
 sns.pairplot(data = df1, y_vars = ['CPI'], x_vars = ['Year', 'GDP', 'Energy', 'Tech', 'Education', 'Rates', 'Internet', 'Tourism', 'Health'], kind = 'reg')
@@ -1798,7 +1798,7 @@ plt.show()
 ```
 
 
-![png](/CPIImages/output_51_0.png)
+![png](CPIImages/output_51_0.png)
 
 
 **From this set of scatter plots, we observe that:**
@@ -1812,7 +1812,7 @@ plt.show()
 ```
 
 
-![png](/CPIImages/output_53_0.png)
+![png](CPIImages/output_53_0.png)
 
 
 **From this set of scatter plots for BRICS countries, we observe that:**
@@ -1826,7 +1826,7 @@ plt.show()
 ```
 
 
-![png](/CPIImages/output_55_0.png)
+![png](CPIImages/output_55_0.png)
 
 
 **From this set of scatter plots for G7 and BRICS combined, we observe that:**
@@ -2729,7 +2729,7 @@ plt.show()
     
 
 
-![png](/CPIImages/output_112_1.png)
+![png](CPIImages/output_112_1.png)
 
 
 
@@ -3419,7 +3419,7 @@ plt.show()
     
 
 
-![png](/CPIImages/output_127_1.png)
+![png](CPIImages/output_127_1.png)
 
 
 ## 6. Results and Analysis:
