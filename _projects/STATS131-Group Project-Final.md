@@ -78,7 +78,7 @@ CPI.describe()
 
 
 <div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
-<style>
+<style scoped="">
     .dataframe thead tr:only-child th {
         text-align: right;
     }
@@ -425,7 +425,7 @@ gdp.pivot(index = "Year", columns = "Country", values = "Value").head()
 
 
 
-<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
+<div>
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
@@ -650,7 +650,7 @@ table1.head()
 
 
 
-<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
+<div>
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
@@ -757,7 +757,7 @@ table2.head()
 
 
 
-<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
+<div>
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
@@ -981,7 +981,7 @@ corr
 
 
 
-<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
+<div>
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
@@ -1139,8 +1139,8 @@ corr
 
 
 
-<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
-<style>
+<div>
+    <style>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
@@ -1150,7 +1150,7 @@ corr
     .dataframe tbody tr th {
         vertical-align: top;
     }
-</style>
+    </style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1297,8 +1297,8 @@ df1.head()
 
 
 
-<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
-<style>
+<div>
+    <style>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
@@ -1424,8 +1424,7 @@ CPI.loc[years, G7].agg(["min","max"])
 
 
 
-
-<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
+<div>
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
@@ -1485,8 +1484,8 @@ CPI.loc[years, BRICS].agg(["min","max"])
 
 
 
-<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
-<style>
+<div>
+    <style>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
@@ -1549,8 +1548,8 @@ df2.head()
 
 
 
-<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
-<style>
+<div>
+    <style>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
@@ -2914,8 +2913,8 @@ CPI.loc[years, testing]
 
 
 
-<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
-<style>
+<div>
+    <style>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
@@ -3059,8 +3058,8 @@ df_test.head()
 
 
 
-<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
-<style>
+<div>
+    <style>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
@@ -3194,8 +3193,8 @@ x.head()
 
 
 
-<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
-<style>
+<div>
+    <style>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
