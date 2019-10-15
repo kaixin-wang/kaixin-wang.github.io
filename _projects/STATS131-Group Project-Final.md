@@ -77,7 +77,7 @@ CPI.describe()
 ```
 
 
-<div>
+<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
@@ -425,7 +425,7 @@ gdp.pivot(index = "Year", columns = "Country", values = "Value").head()
 
 
 
-<div>
+<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
@@ -650,16 +650,14 @@ table1.head()
 
 
 
-<div>
+<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
-
     .dataframe thead th {
         text-align: left;
     }
-
     .dataframe tbody tr th {
         vertical-align: top;
     }
@@ -759,16 +757,14 @@ table2.head()
 
 
 
-<div>
+<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
-
     .dataframe thead th {
         text-align: left;
     }
-
     .dataframe tbody tr th {
         vertical-align: top;
     }
@@ -985,16 +981,14 @@ corr
 
 
 
-<div>
+<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
-
     .dataframe thead th {
         text-align: left;
     }
-
     .dataframe tbody tr th {
         vertical-align: top;
     }
@@ -1145,16 +1139,14 @@ corr
 
 
 
-<div>
+<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
-
     .dataframe thead th {
         text-align: left;
     }
-
     .dataframe tbody tr th {
         vertical-align: top;
     }
@@ -1305,16 +1297,14 @@ df1.head()
 
 
 
-<div>
+<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
-
     .dataframe thead th {
         text-align: left;
     }
-
     .dataframe tbody tr th {
         vertical-align: top;
     }
@@ -1435,16 +1425,14 @@ CPI.loc[years, G7].agg(["min","max"])
 
 
 
-<div>
+<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
-
     .dataframe thead th {
         text-align: left;
     }
-
     .dataframe tbody tr th {
         vertical-align: top;
     }
@@ -1497,16 +1485,14 @@ CPI.loc[years, BRICS].agg(["min","max"])
 
 
 
-<div>
+<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
-
     .dataframe thead th {
         text-align: left;
     }
-
     .dataframe tbody tr th {
         vertical-align: top;
     }
@@ -1563,16 +1549,14 @@ df2.head()
 
 
 
-<div>
+<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
-
     .dataframe thead th {
         text-align: left;
     }
-
     .dataframe tbody tr th {
         vertical-align: top;
     }
@@ -2930,16 +2914,14 @@ CPI.loc[years, testing]
 
 
 
-<div>
+<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
-
     .dataframe thead th {
         text-align: left;
     }
-
     .dataframe tbody tr th {
         vertical-align: top;
     }
@@ -3077,16 +3059,14 @@ df_test.head()
 
 
 
-<div>
+<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
-
     .dataframe thead th {
         text-align: left;
     }
-
     .dataframe tbody tr th {
         vertical-align: top;
     }
@@ -3214,16 +3194,14 @@ x.head()
 
 
 
-<div>
+<div class="p-Widget jp-RenderedHTMLCommon jp-RenderedHTML jp-mod-trusted jp-OutputArea-output" data-mime-type="text/html">
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
     }
-
     .dataframe thead th {
         text-align: left;
     }
-
     .dataframe tbody tr th {
         vertical-align: top;
     }
