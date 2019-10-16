@@ -1,11 +1,15 @@
-Regression Project Report
-================
-Kaixin Wang & Qin Hu
-Summer Session A 2019
+---
+title: "Football Game Prediction Project"
+collection: projects
+permalink: /projects/FootballPrediction
+excerpt: 'Predicting the wins of each of the sixteen teams in one seasonal football games based on game statistics of each team.'
+---
 
+Football games prediction project
 
+Authors: Kaixin Wang & Qin Hu
 
-
+Time: Summer Session A 2019
 
 Introduction
 ------------
