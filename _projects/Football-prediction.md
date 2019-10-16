@@ -22,11 +22,11 @@ Method and Model
 
 1. **Regression model**: The regression model that we decide to adopt is a Multiple Lienar Regression (MLR) model:
 
-  Reasons in the adopting MLR model:
+    Reasons in the adopting MLR model:
 
-  -   Since the total number of predictors in the dataset is *p* = 31, which is relatively small and the total number of observations is *n* = 380, our first choice was to fit a MLR model.
-  -   Since MLR has higher interpretability than many other statistical learning methods, and since we are familiar with the predictors and the response to some degree, using a MLR model will help us in the process of variable selection and evaluating the model.
-  -   Some of the statistical learning methods (such as boosting and random forest) tend to overly fit the training set, and thus they don't have a high prediction accuracy on the testing sets.
+    -   Since the total number of predictors in the dataset is *p* = 31, which is relatively small and the total number of observations is *n* = 380, our first choice was to fit a MLR model.
+    -   Since MLR has higher interpretability than many other statistical learning methods, and since we are familiar with the predictors and the response to some degree, using a MLR model will help us in the process of variable selection and evaluating the model.
+    -   Some of the statistical learning methods (such as boosting and random forest) tend to overly fit the training set, and thus they don't have a high prediction accuracy on the testing sets.
 
 2. **Variable selection**: Based on the pairwise scatterplots based on `plot(Wins ~ predictors)`, we observe that there are several predictors that have a strong linear relationship with the response variable, for example:
 
