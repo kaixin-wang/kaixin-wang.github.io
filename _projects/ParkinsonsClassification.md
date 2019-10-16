@@ -86,6 +86,7 @@ Results
 <p class="caption">
 Importance of predictors determined by random forest
 </p>
+  </center>
 
 The two graphs plotted above showed the top thirty most important predictors in classifying the label in the training set, using the mean decrease accuracy (left) and the mean decrease Gini (right) as the ranking metric.
 
