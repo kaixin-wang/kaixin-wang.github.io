@@ -22,11 +22,11 @@ Method and Model
 
 1. **Regression model**: The regression model that we decide to adopt is a Multiple Lienar Regression (MLR) model:
 
-Reasons in the adopting MLR model:
+    Reasons in the adopting MLR model:
 
--   Since the total number of predictors in the dataset is *p* = 31, which is relatively small and the total number of observations is *n* = 380, our first choice was to fit a MLR model.
--   Since MLR has higher interpretability than many other statistical learning methods, and since we are familiar with the predictors and the response to some degree, using a MLR model will help us in the process of variable selection and evaluating the model.
--   Some of the statistical learning methods (such as boosting and random forest) tend to overly fit the training set, and thus they don't have a high prediction accuracy on the testing sets.
+    -   Since the total number of predictors in the dataset is *p* = 31, which is relatively small and the total number of observations is *n* = 380, our first choice was to fit a MLR model.
+    -   Since MLR has higher interpretability than many other statistical learning methods, and since we are familiar with the predictors and the response to some degree, using a MLR model will help us in the process of variable selection and evaluating the model.
+    -   Some of the statistical learning methods (such as boosting and random forest) tend to overly fit the training set, and thus they don't have a high prediction accuracy on the testing sets.
 
 2. **Variable selection**: Based on the pairwise scatterplots based on `plot(Wins ~ predictors)`, we observe that there are several predictors that have a strong linear relationship with the response variable, for example:
 
@@ -201,75 +201,75 @@ Conclusion and Discussion
 
 1. **Comparision between summary statistics of the training set and testing set predictions**:
 
-<center>
-<table style="width:72%;">
-<caption>summary table of the training set predictions</caption>
-<colgroup>
-<col width="11%" />
-<col width="13%" />
-<col width="12%" />
-<col width="11%" />
-<col width="13%" />
-<col width="9%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="center">Min.</th>
-<th align="center">1st Qu.</th>
-<th align="center">Median</th>
-<th align="center">Mean</th>
-<th align="center">3rd Qu.</th>
-<th align="center">Max.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center">1.352</td>
-<td align="center">6.123</td>
-<td align="center">8.26</td>
-<td align="center">8.139</td>
-<td align="center">10.3</td>
-<td align="center">14.54</td>
-</tr>
-</tbody>
-</table>
-  </center>
+    <center>
+    <table style="width:72%;">
+    <caption>summary table of the training set predictions</caption>
+    <colgroup>
+    <col width="11%" />
+    <col width="13%" />
+    <col width="12%" />
+    <col width="11%" />
+    <col width="13%" />
+    <col width="9%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th align="center">Min.</th>
+    <th align="center">1st Qu.</th>
+    <th align="center">Median</th>
+    <th align="center">Mean</th>
+    <th align="center">3rd Qu.</th>
+    <th align="center">Max.</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td align="center">1.352</td>
+    <td align="center">6.123</td>
+    <td align="center">8.26</td>
+    <td align="center">8.139</td>
+    <td align="center">10.3</td>
+    <td align="center">14.54</td>
+    </tr>
+    </tbody>
+    </table>
+      </center>
 
-<center>
-<table style="width:74%;">
-<caption>summary table of the testing set predictions</caption>
-<colgroup>
-<col width="12%" />
-<col width="13%" />
-<col width="12%" />
-<col width="11%" />
-<col width="13%" />
-<col width="9%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="center">Min.</th>
-<th align="center">1st Qu.</th>
-<th align="center">Median</th>
-<th align="center">Mean</th>
-<th align="center">3rd Qu.</th>
-<th align="center">Max.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center">0.7344</td>
-<td align="center">5.922</td>
-<td align="center">7.709</td>
-<td align="center">7.544</td>
-<td align="center">9.157</td>
-<td align="center">13.45</td>
-</tr>
-</tbody>
-</table>
-  </center>
+    <center>
+    <table style="width:74%;">
+    <caption>summary table of the testing set predictions</caption>
+    <colgroup>
+    <col width="12%" />
+    <col width="13%" />
+    <col width="12%" />
+    <col width="11%" />
+    <col width="13%" />
+    <col width="9%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th align="center">Min.</th>
+    <th align="center">1st Qu.</th>
+    <th align="center">Median</th>
+    <th align="center">Mean</th>
+    <th align="center">3rd Qu.</th>
+    <th align="center">Max.</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td align="center">0.7344</td>
+    <td align="center">5.922</td>
+    <td align="center">7.709</td>
+    <td align="center">7.544</td>
+    <td align="center">9.157</td>
+    <td align="center">13.45</td>
+    </tr>
+    </tbody>
+    </table>
+      </center>
 
-Based on the two summary tables above, we observe that the predictions on the testing set in general are lower than the predictions on the training set.
+    Based on the two summary tables above, we observe that the predictions on the testing set in general are lower than the predictions on the training set.
 
 2. **Interpretations of the model**:
 
