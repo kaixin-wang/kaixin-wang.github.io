@@ -51,4 +51,12 @@ Skills
 Leadership & Community Services
 ======
 
-To Be Updated.
+* Volunteer for various events at *University of California, Los Angeles* (UCLA) (Sep. 2018 - Present)
+
+  * Volunteer at UCLA Internet 50 (upcoming - October 2019)
+  * Volunteer at UCLA Volunteer Day 2018 & 2019 (Sep. 2018 & Sep. 2019)
+  * Volunteer at TEDxUCLA 2019, UCLA Alumni Day 2019 (May 2019)
+  * Volunteer at UCLA Bruin Days 2019 (April 2019)
+  
+ * Volunteer at Cupertino Library (Jan. 2019 - August 2019)
+ 
