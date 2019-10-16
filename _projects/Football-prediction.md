@@ -261,11 +261,11 @@ Based on the two summary tables above, we observe that the predictions on the te
 
 <!-- -->
 
-2.  Interpretations of the intercept:
+(1).  Interpretations of the intercept:
 
 Although the intercept (*β*<sub>0</sub> = −101) is statistically significant, it doesn't make much sense in the real world: a team with no statistics collected or no games played during a season shouldn't have won a negative number of games, but rather the number should be around zero.
 
-3.  Interpretations of the slopes:
+(2).  Interpretations of the slopes:
 
 -   Predictor variables that increase the value of the response variable are `log(FirstDowns)`, `log(Yards)`, `RushingAttempts`, `OppPassesAttempted`, and `OppTurnOversLost`.
 
@@ -275,6 +275,6 @@ Based on the context, it is reasonable for variables such as `log(FirstDowns)` a
 
 Similarly, it also makes sense that predictors such as `OppYardsGainedPassing` and `OppFirstDowns` to have a negative effect on the value of the response, since these numbers represent the performance level of the opponent in a game.
 
-4.  **Possible improvements of the model**:
+(3).  **Possible improvements of the model**:
 
 Due to the time limit, we only transformed two predictor variables by taking their logarithmic values. Further variable transformations should be taken into considertaion, such as taking the ratio of predictor variables to include more information into the model, while keeping the total number of predictors employed in the model small. For example, one possible new variable could be defined as $\\frac{\\text{FirstDowns}}{\\text{OppFirstDowns}}$, which represents the number of first downs of the team relavant to the number of first downs of the opponent.
