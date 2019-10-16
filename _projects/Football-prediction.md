@@ -27,7 +27,7 @@ Reasons in the adopting MLR model:
 -   Since MLR has higher interpretability than many other statistical learning methods, and since we are familiar with the predictors and the response to some degree, using a MLR model will help us in the process of variable selection and evaluating the model.
 -   Some of the statistical learning methods (such as boosting and random forest) tend to overly fit the training set, and thus they don't have a high prediction accuracy on the testing sets.
 
-1.  **Variable selection**: Based on the pairwise scatterplots based on `plot(Wins ~ predictors)`, we observe that there are several predictors that have a strong linear relationship with the response variable, for example:
+2.  **Variable selection**: Based on the pairwise scatterplots based on `plot(Wins ~ predictors)`, we observe that there are several predictors that have a strong linear relationship with the response variable, for example:
 
 <img src="STATS101C-Regression-Report-SummerA_files/figure-markdown_github/unnamed-chunk-2-1.png" alt="Scatterplots of Wins vs. different predictor variables"  />
 <p class="caption">
@@ -36,11 +36,11 @@ Scatterplots of Wins vs. different predictor variables
 
 Steps in the variable selection process:
 
-1.  Based on the fact that a random forest classifier picks $\\frac{p}{3}$ predictors by default, where *p* = total number of predictors = 31 in the dataset, and the fact that there is diminishing amount of increase *R*<sub>*a**d**j*</sub> when adding more than 10 predictors, we chose to include 10 predictor variables.
+1.  Based on the fact that a random forest classifier picks $\\frac{p}{3}$ predictors by default, where *p* = total number of predictors = 31 in the dataset, and the fact that there is diminishing amount of increase *R*<sub>*adj*</sub> when adding more than 10 predictors, we chose to include 10 predictor variables.
 
 2.  Transformation of variables: we transformed `Yards` and `FirstDowns` by applying the logarithmic function to bring down their scale, while keeping as much information of the variables as possible. The reason is because these two predictors are very important in predicting the response in the training set based on their high correlation with the response.
 
-3.  By looking at the *pairwise scatterplots* and *correlation matrix* between the response and the predictors in the training set, and by comparing the *R*<sub>*a**d**j*</sub> and training RSS using different MLR models with 10 predictor variables, the model we selected is as the following:
+3.  By looking at the *pairwise scatterplots* and *correlation matrix* between the response and the predictors in the training set, and by comparing the *R*<sub>*adj*</sub> and training RSS using different MLR models with 10 predictor variables, the model we selected is as the following:
 
 `Wins ~ log(FirstDowns) + RushingAttempts + log(Yards) + YardsGainedRushing + OppPassesAttempted + OffensivePlays + OppYardsGainedPassing + OppTurnOversLost + OppFirstDowns + InterceptionsThrown`
 
@@ -261,11 +261,11 @@ Based on the two summary tables above, we observe that the predictions on the te
 
 <!-- -->
 
-1.  Interpretations of the intercept:
+2.  Interpretations of the intercept:
 
 Although the intercept (*β*<sub>0</sub> = −101) is statistically significant, it doesn't make much sense in the real world: a team with no statistics collected or no games played during a season shouldn't have won a negative number of games, but rather the number should be around zero.
 
-1.  Interpretations of the slopes:
+3.  Interpretations of the slopes:
 
 -   Predictor variables that increase the value of the response variable are `log(FirstDowns)`, `log(Yards)`, `RushingAttempts`, `OppPassesAttempted`, and `OppTurnOversLost`.
 
@@ -275,6 +275,6 @@ Based on the context, it is reasonable for variables such as `log(FirstDowns)` a
 
 Similarly, it also makes sense that predictors such as `OppYardsGainedPassing` and `OppFirstDowns` to have a negative effect on the value of the response, since these numbers represent the performance level of the opponent in a game.
 
-1.  **Possible improvements of the model**:
+4.  **Possible improvements of the model**:
 
 Due to the time limit, we only transformed two predictor variables by taking their logarithmic values. Further variable transformations should be taken into considertaion, such as taking the ratio of predictor variables to include more information into the model, while keeping the total number of predictors employed in the model small. For example, one possible new variable could be defined as $\\frac{\\text{FirstDowns}}{\\text{OppFirstDowns}}$, which represents the number of first downs of the team relavant to the number of first downs of the opponent.
