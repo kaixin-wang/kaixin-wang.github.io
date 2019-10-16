@@ -20,7 +20,7 @@ In this regression competition project, the goal is to predict the numeric varia
 Method and Model
 ----------------
 
-1.  **Regression model**: The regression model that we decide to adopt is a Multiple Lienar Regression (MLR) model:
+1. **Regression model**: The regression model that we decide to adopt is a Multiple Lienar Regression (MLR) model:
 
 Reasons in the adopting MLR model:
 
@@ -28,7 +28,7 @@ Reasons in the adopting MLR model:
 -   Since MLR has higher interpretability than many other statistical learning methods, and since we are familiar with the predictors and the response to some degree, using a MLR model will help us in the process of variable selection and evaluating the model.
 -   Some of the statistical learning methods (such as boosting and random forest) tend to overly fit the training set, and thus they don't have a high prediction accuracy on the testing sets.
 
-2.  **Variable selection**: Based on the pairwise scatterplots based on `plot(Wins ~ predictors)`, we observe that there are several predictors that have a strong linear relationship with the response variable, for example:
+2. **Variable selection**: Based on the pairwise scatterplots based on `plot(Wins ~ predictors)`, we observe that there are several predictors that have a strong linear relationship with the response variable, for example:
 
 <center>
 <img src="STATS101C-Regression-Report-SummerA_files/figure-markdown_github/unnamed-chunk-2-1.png" alt="Scatterplots of Wins vs. different predictor variables"  />
@@ -199,7 +199,7 @@ Diagnostics of the MLR model
 Conclusion and Discussion
 -------------------------
 
-1.  **Comparision between summary statistics of the training set and testing set predictions**:
+1. **Comparision between summary statistics of the training set and testing set predictions**:
 
 <center>
 <table style="width:72%;">
@@ -271,7 +271,7 @@ Conclusion and Discussion
 
 Based on the two summary tables above, we observe that the predictions on the testing set in general are lower than the predictions on the training set.
 
-2.  **Interpretations of the model**:
+2. **Interpretations of the model**:
 
 <!-- -->
 
