@@ -32,16 +32,18 @@ In building the random forest:
 
 2.  Determine the parameters of `randomForest()` by cross-validation:
 
+<center>
 <img src="STATS101C-Classification_files/figure-markdown_github/unnamed-chunk-2-1.png" alt="10-fold cross validation in building a random forest"  />
 <p class="caption">
 10-fold cross validation in building a random forest
 </p>
+  </center>
 
 Based on the cross-validation error using 10-fold cross-validation, we obeserve that the cross-validation error is minimized when the number of variables used is around 18 to 19.
 
 Therefore, we decide to use the default arguments of `randomForest()`, which has the parameter `ntree` = 500 and `mtry` = $\\sqrt{p}$, where *p* = 310 in this dataset (since $\\sqrt{311} \\approx 18$).
 
-1.  Create a random forest using `randomForest()` with `formula` = `category ~ .`, `data` = `train` and `importance` = T.
+3.  Create a random forest using `randomForest()` with `formula` = `category ~ .`, `data` = `train` and `importance` = T.
 
 Results
 -------
@@ -53,8 +55,9 @@ Results
 | 1   |  31 |  0  |
 | 2   |  0  |  57 |
 
-1.  Prediction of the test set:
+2.  Prediction of the test set:
 
+<center>
 <table style="width:14%;">
 <caption>Prediction using random forest</caption>
 <colgroup>
@@ -74,10 +77,15 @@ Results
 </tr>
 </tbody>
 </table>
+  </center>
 
-1.  Importance of the predictors ranked by the random forest classifier:
+3.  Importance of the predictors ranked by the random forest classifier:
+
+<center>
 
 ![Importance of predictors determined by random forest](STATS101C-Classification_files/figure-markdown_github/unnamed-chunk-6-1.png)
+
+</center>
 
 The two graphs plotted above showed the top thirty most important predictors in classifying the label in the training set, using the mean decrease accuracy (left) and the mean decrease Gini (right) as the ranking metric.
 
