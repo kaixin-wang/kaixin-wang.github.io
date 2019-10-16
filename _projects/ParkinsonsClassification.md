@@ -82,10 +82,10 @@ Results
 3.  Importance of the predictors ranked by the random forest classifier:
 
 <center>
-
-![Importance of predictors determined by random forest](STATS101C-Classification_files/figure-markdown_github/unnamed-chunk-6-1.png)
-
-</center>
+<img src="STATS101C-Classification_files/figure-markdown_github/unnamed-chunk-6-1.png" alt="Importance of predictors determined by random forest"  />
+<p class="caption">
+Importance of predictors determined by random forest
+</p>
 
 The two graphs plotted above showed the top thirty most important predictors in classifying the label in the training set, using the mean decrease accuracy (left) and the mean decrease Gini (right) as the ranking metric.
 
