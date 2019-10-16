@@ -1,9 +1,15 @@
-Classification Project Report
-================
-Kaixin Wang & Qin Hu
-Summer Session A 2019
+---
+title: "Parkinson's Disease Classification Project"
+collection: projects
+permalink: /projects/ParkinsonsClassificationProject
+excerpt: "Classifying if a person has the Parkinson's disease based on data collected from experiments."
+---
 
+Parkinson's Disease Classification Project
 
+Authors: Kaixin Wang, Qin Hu
+
+Time: Summer Session A 2019
 
 Introduction
 ------------
