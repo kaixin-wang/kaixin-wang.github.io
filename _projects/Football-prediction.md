@@ -5,6 +5,7 @@ permalink: /projects/FootballPrediction
 excerpt: 'Predicting the wins of each of the sixteen teams in one seasonal football games based on game statistics of each team.'
 ---
 
+
 Football games prediction project
 
 Authors: Kaixin Wang & Qin Hu
@@ -29,11 +30,13 @@ Reasons in the adopting MLR model:
 
 2.  **Variable selection**: Based on the pairwise scatterplots based on `plot(Wins ~ predictors)`, we observe that there are several predictors that have a strong linear relationship with the response variable, for example:
 
+<center>
 <img src="STATS101C-Regression-Report-SummerA_files/figure-markdown_github/unnamed-chunk-2-1.png" alt="Scatterplots of Wins vs. different predictor variables"  />
 <p class="caption">
 Scatterplots of Wins vs. different predictor variables
 </p>
-
+</center>
+  
 Steps in the variable selection process:
 
 1.  Based on the fact that a random forest classifier picks $\\frac{p}{3}$ predictors by default, where *p* = total number of predictors = 31 in the dataset, and the fact that there is diminishing amount of increase *R*<sub>*adj*</sub> when adding more than 10 predictors, we chose to include 10 predictor variables.
@@ -44,6 +47,7 @@ Steps in the variable selection process:
 
 `Wins ~ log(FirstDowns) + RushingAttempts + log(Yards) + YardsGainedRushing + OppPassesAttempted + OffensivePlays + OppYardsGainedPassing + OppTurnOversLost + OppFirstDowns + InterceptionsThrown`
 
+<center>
 <table>
 <colgroup>
 <col width="37%" />
@@ -141,7 +145,9 @@ Steps in the variable selection process:
 </tr>
 </tbody>
 </table>
+  </center>
 
+<center>
 <table style="width:86%;">
 <caption>Final MLR model and model statistics</caption>
 <colgroup>
@@ -167,20 +173,24 @@ Steps in the variable selection process:
 </tr>
 </tbody>
 </table>
+</center>
 
 Assumptions, Diagnostics and Results
 ------------------------------------
 
 **Assumptions**
 
-In the MLR model, *y*<sub>*i*</sub> = *β*<sub>0</sub> + *β*<sub>1</sub>*x*<sub>*i*1</sub> + ⋅ ⋅ ⋅ + *β*<sub>*p*</sub>*x*<sub>*i**p*</sub> + *ϵ*<sub>*i*</sub>, we assume that *ϵ*<sub>*i*</sub> ∼ *N*(0, *σ*<sup>2</sup>) are independently distributed.
+In the MLR model, *y*<sub>*i*</sub> = *β*<sub>0</sub> + *β*<sub>1</sub>*x*<sub>*i*1</sub> + ⋅ ⋅ ⋅ + *β*<sub>*p*</sub>*x*<sub>*ip*</sub> + *ϵ*<sub>*i*</sub>, we assume that *ϵ*<sub>*i*</sub> ∼ *N*(0, *σ*<sup>2</sup>) are independently distributed.
 
 **Diagnostics**
 
+<center>
 <img src="STATS101C-Regression-Report-SummerA_files/figure-markdown_github/unnamed-chunk-4-1.png" alt="Diagnostics of the MLR model"  />
 <p class="caption">
 Diagnostics of the MLR model
 </p>
+  </center>
+  
 
 1.  From the residuals vs. fitted values plot, the errors are independently distributed and E\[*ϵ*\] = 0 (no pattern exists in the plot and the average of errors is around zero throughout).
 2.  From the standardized residuals vs. fitted values plot, the constant variance assumption is satisfied (flat line representing the constant value of the variance).
@@ -191,6 +201,7 @@ Conclusion and Discussion
 
 1.  **Comparision between summary statistics of the training set and testing set predictions**:
 
+<center>
 <table style="width:72%;">
 <caption>summary table of the training set predictions</caption>
 <colgroup>
@@ -222,7 +233,9 @@ Conclusion and Discussion
 </tr>
 </tbody>
 </table>
+  </center>
 
+<center>
 <table style="width:74%;">
 <caption>summary table of the testing set predictions</caption>
 <colgroup>
@@ -254,6 +267,7 @@ Conclusion and Discussion
 </tr>
 </tbody>
 </table>
+  </center>
 
 Based on the two summary tables above, we observe that the predictions on the testing set in general are lower than the predictions on the training set.
 
