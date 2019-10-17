@@ -218,7 +218,7 @@ defaults:
       path: ""
       type: research
     values:
-      layout: default # single
+      layout: single
       author_profile: true
       share: false
  # _projects
@@ -226,7 +226,7 @@ defaults:
       path: ""
       type: projects
     values:
-      layout: default # single
+      layout: single
       author_profile: true
       share: false
 
