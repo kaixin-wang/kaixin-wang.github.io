@@ -21,11 +21,11 @@ Undergraduate Researcher at University of California, Los Angeles
 
 * Crack detection and crack length estimation project
   * *Description*: locate the cracks and estimate the length of each crack in an armor based on the digital CT scans
-  * *Supervisor*: Professor Frederic (Rick) Paik Schoenberg
+  * *Advisor*: Professor Frederic (Rick) Paik Schoenberg
   
 * Online Statistical Cookbook Reference (OSCR) project 
   * *Description*: build a statistical learning platform for social sciences; languages used include *Python*, *R*, *Excel* and *Tableau*. 
-  * *Supervisor*: Professor Miles Chen
+  * *Advisor*: Professor Miles Chen
   
 Employments
 ======
