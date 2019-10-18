@@ -2,7 +2,7 @@
 title: "Music And Memory Project"
 collection: projects
 permalink: /projects/MusicAndMemory
-excerpt: "Music and Memory Experimental Design Project"
+excerpt: "An experimental design project in exploring the relation between music and memory."
 ---
 
 Music and Memory
