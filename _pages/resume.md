@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. Statistics & B.S. Applied Mathematics, University of California, Los Angeles (Sep. 2018 - March 2020)
-* Visiting Undergraduate, Stanford University (Summer 2017 & Summer 2018)
-* Transfer Undergraduate, De Anza College (Sep. 2016 - June 2018)
+* B.S. Statistics & B.S. Applied Mathematics, *University of California, Los Angeles* (Sep. 2018 - March 2020)
+* Visiting Undergraduate, *Stanford University* (Summer 2017 & Summer 2018)
+* Transfer Undergraduate, *De Anza College* (Sep. 2016 - June 2018)
 
 Research
 ======
@@ -43,7 +43,7 @@ Employments
   
 Skills
 ======
-* Programming languages: Python, R, C++, Java, MATLAB
+* Programming languages: Python, R, C++, Java, MATLAB, LaTex
 * Packages: 
   * Python: scikit-learn, keras, TensorFlow, pandas, matplotlib, seaborn
   * R: ggplot2, dplyr, tidy
