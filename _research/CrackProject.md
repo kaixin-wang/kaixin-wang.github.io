@@ -1,8 +1,8 @@
 ---
-title: "Crack Detection and Crack Length Estimation"
+title: "Crack Detection and Crack Length Estimation Project"
 collection: research
 permalink: /research/CrackProject
-excerpt: "Detecting the cracks and estimating the length of each crack based on data from digital CT scans"
+excerpt: "Detecting the cracks and estimating the length of each crack based on data from digital images"
 ---
 
-To Be Updated ...
+Details of the project coming soon ...
