@@ -53,6 +53,7 @@ Leadership & Community Services
 
 * Volunteer for various events at *University of California, Los Angeles* (UCLA) (Sep. 2018 - Present)
 
+  * Volunteer at UCLA Explore Your Universe 2019 (upcoming - November 2019)
   * Volunteer at UCLA Internet 50 (upcoming - October 2019)
   * Volunteer at UCLA Volunteer Day 2018 & 2019 (Sep. 2018 & Sep. 2019)
   * Volunteer at TEDxUCLA 2019, UCLA Alumni Day 2019 (May 2019)
