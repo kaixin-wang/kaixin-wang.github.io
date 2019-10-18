@@ -2,7 +2,7 @@
 title: "CPI Prediction Project"
 collection: projects
 permalink: /projects/CPIPredictionProject
-excerpt: 'Prediction of the CPI.'
+excerpt: 'Prediction of the Consumer Price Index (CPI) based on various predictors, especially some important factors from macroeconomics.'
 ---
 
 CPI Prediction Project
