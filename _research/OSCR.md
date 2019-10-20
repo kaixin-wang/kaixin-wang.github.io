@@ -2,7 +2,7 @@
 title: "Online Statistical Computing Reference (OSCR) project"
 collection: research
 permalink: /research/OSCR
-excerpt: "Building a statistical learning platform, OSCR, for social sciences"
+excerpt: "Building a statistical learning platform, OSCR, for conducting statistical analysis in social sciences."
 ---
 
 Online Statistical Computing Reference
