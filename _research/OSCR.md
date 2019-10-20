@@ -7,7 +7,8 @@ excerpt: "Building a statistical learning platform, OSCR, for conducting statist
 
 Online Statistical Computing Reference
 
-Team contributors: Lizhou Fan, Kaixin Wang, Huizi Yu
+- Time: August 2019 - Present
+- Team contributors: Lizhou Fan, Kaixin Wang, Huizi Yu
 
 Introduction
 ============
