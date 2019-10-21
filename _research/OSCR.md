@@ -1,5 +1,5 @@
 ---
-title: "Online Statistical Computing Reference (OSCR) project"
+title: "Online Statistical Computing Reference (OSCR) Project"
 collection: research
 permalink: /research/OSCR
 excerpt: "Building a statistical learning platform, OSCR, for conducting statistical analysis in social sciences."
