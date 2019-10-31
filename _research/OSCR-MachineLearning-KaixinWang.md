@@ -309,7 +309,7 @@ plt.show()
 ```
 
 
-![png](output_18_0.png)
+![png](OSCR-MachineLearning-KaixinWang/output_18_0.png)
 
 
      2. Boxplots
