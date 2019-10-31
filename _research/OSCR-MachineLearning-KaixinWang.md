@@ -1,7 +1,7 @@
 ---
-title: "Online Statistical Computing Reference (OSCR) Project"
-collection: pages
-permalink: /research/OSCR/MachineLearning
+title: "Online Statistical Computing Reference (OSCR) Project - Machine Learning Module"
+collection: research
+permalink: /research/OSCR_MachineLearning
 ---
 
 ### OSCR Machine Learning in Python
@@ -9,7 +9,6 @@ permalink: /research/OSCR/MachineLearning
 **Linear Regression Module**
 
 **&copy; Kaixin Wang**, Fall 2019
-
 
 
 Module/Package import
@@ -269,7 +268,7 @@ plt.show()
 ```
 
 
-![png](output_16_0.png)
+![png](OSCR-MachineLearning-KaixinWang/output_16_0.png)
 
 
 
