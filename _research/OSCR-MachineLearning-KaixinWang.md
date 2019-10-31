@@ -269,7 +269,7 @@ plt.show()
 ```
 
 
-![png](output_16_0.png)
+![png](/OSCR-MachineLearning-KaixinWang/output_16_0.png)
 
 
 
@@ -292,7 +292,7 @@ plt.show()
 ```
 
 
-![png](output_17_0.png)
+![png](/OSCR-MachineLearning-KaixinWang/output_17_0.png)
 
 
      2. Boxplots
@@ -307,7 +307,7 @@ plt.show()
 ```
 
 
-![png](output_19_0.png)
+![png](/OSCR-MachineLearning-KaixinWang/output_19_0.png)
 
 
 
@@ -334,7 +334,7 @@ plt.show()
 ```
 
 
-![png](output_20_0.png)
+![png](/OSCR-MachineLearning-KaixinWang/output_20_0.png)
 
 
     3. scatterplots
@@ -360,7 +360,7 @@ plt.show()
 ```
 
 
-![png](output_22_0.png)
+![png](/OSCR-MachineLearning-KaixinWang/output_22_0.png)
 
 
     4. histograms and density plots
@@ -391,7 +391,7 @@ plt.show()
 ```
 
 
-![png](output_24_0.png)
+![png](/OSCR-MachineLearning-KaixinWang/output_24_0.png)
 
 
 Variable Selection and Modeling
@@ -577,7 +577,7 @@ diagnosticsPlots(pred_val, true_val)
     
 
 
-![png](output_43_1.png)
+![png](/OSCR-MachineLearning-KaixinWang/output_43_1.png)
 
 
 training and testing Root-Mean-Square Error (RMSE)
@@ -730,7 +730,7 @@ diagnosticsPlots(pred_val, true_val)
     
 
 
-![png](output_57_1.png)
+![png](/OSCR-MachineLearning-KaixinWang/output_57_1.png)
 
 
 
