@@ -1,3 +1,8 @@
+---
+title: "Online Statistical Computing Reference (OSCR) Project"
+collection: research
+permalink: /research/OSCR/MachineLearning
+---
 
 ### OSCR Machine Learning in Python
 
