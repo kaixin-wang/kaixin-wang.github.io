@@ -1,6 +1,5 @@
 ---
-title: "Online Statistical Computing Reference (OSCR) Project"
-collection: research
+
 permalink: /research/OSCR/MachineLearning
 ---
 
@@ -269,7 +268,7 @@ plt.show()
 ```
 
 
-![png](/OSCR-MachineLearning-KaixinWang/output_16_0.png)
+![png](OSCR-MachineLearning-KaixinWang/output_16_0.png)
 
 
 
@@ -292,7 +291,7 @@ plt.show()
 ```
 
 
-![png](/OSCR-MachineLearning-KaixinWang/output_17_0.png)
+![png](OSCR-MachineLearning-KaixinWang/output_17_0.png)
 
 
      2. Boxplots
@@ -307,7 +306,7 @@ plt.show()
 ```
 
 
-![png](/OSCR-MachineLearning-KaixinWang/output_19_0.png)
+![png](OSCR-MachineLearning-KaixinWang/output_19_0.png)
 
 
 
@@ -334,7 +333,7 @@ plt.show()
 ```
 
 
-![png](/OSCR-MachineLearning-KaixinWang/output_20_0.png)
+![png](OSCR-MachineLearning-KaixinWang/output_20_0.png)
 
 
     3. scatterplots
@@ -360,7 +359,7 @@ plt.show()
 ```
 
 
-![png](/OSCR-MachineLearning-KaixinWang/output_22_0.png)
+![png](OSCR-MachineLearning-KaixinWang/output_22_0.png)
 
 
     4. histograms and density plots
@@ -577,7 +576,7 @@ diagnosticsPlots(pred_val, true_val)
     
 
 
-![png](/OSCR-MachineLearning-KaixinWang/output_43_1.png)
+![png](OSCR-MachineLearning-KaixinWang/output_43_1.png)
 
 
 training and testing Root-Mean-Square Error (RMSE)
@@ -730,7 +729,7 @@ diagnosticsPlots(pred_val, true_val)
     
 
 
-![png](/OSCR-MachineLearning-KaixinWang/output_57_1.png)
+![png](OSCR-MachineLearning-KaixinWang/output_57_1.png)
 
 
 
