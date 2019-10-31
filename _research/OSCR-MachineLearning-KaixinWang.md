@@ -1,7 +1,3 @@
----
-
-permalink: /research/OSCR/MachineLearning
----
 
 ### OSCR Machine Learning in Python
 
@@ -56,17 +52,17 @@ soil.head() # check if read in correctly
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
     }
 
     .dataframe tbody tr th {
         vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
     }
 </style>
 <table border="1" class="dataframe">
@@ -261,14 +257,32 @@ n = soil.shape[1]
 ```python
 plt.figure(figsize = (10, 8))
 sns.heatmap(soil.corr(), annot = True, square = True, linewidths = 0.1)
-plt.ylim(0, n)
-plt.xlim(0, n)
+plt.ylim(n-1, 0)
+plt.xlim(0, n-1)
 plt.title("Pearson Correlation Heatmap between variables")
 plt.show()
 ```
 
 
-![png](OSCR-MachineLearning-KaixinWang/output_16_0.png)
+![png](output_16_0.png)
+
+
+
+```python
+plt.figure(figsize = (10, 8))
+corr = soil.corr()
+mask = np.zeros_like(corr)
+mask[np.triu_indices_from(mask)] = True
+with sns.axes_style("white"):
+    sns.heatmap(corr, mask = mask, linewidths = 0.1, vmax = .3, square = True)
+plt.ylim(n-1, 0)
+plt.xlim(0, n-1)
+plt.title("correlation heatmap without symmetric information")
+plt.show()
+```
+
+
+![png](output_17_0.png)
 
 
 
@@ -278,20 +292,20 @@ plt.subplots_adjust(left=0, bottom=0, right=1, top=1, wspace=0, hspace=0.2)
 plt.subplot(2, 1, 1)
 # correlation heatmap without annotation
 sns.heatmap(soil.corr(), linewidths = 0.1, square = True, cmap = "YlGnBu")
-plt.ylim(0, n)
-plt.xlim(0, n)
+plt.ylim(n-1, 0)
+plt.xlim(0, n-1)
 plt.title("correlation heatmap without annotation")
 plt.subplot(2, 1, 2)
 # correlation heatmap with annotation
 sns.heatmap(soil.corr(), linewidths = 0.1, square = True, annot = True, cmap = "YlGnBu")
-plt.ylim(0, n)
-plt.xlim(0, n)
+plt.ylim(n-1, 0)
+plt.xlim(0, n-1)
 plt.title("correlation heatmap with annotation")
 plt.show()
 ```
 
 
-![png](OSCR-MachineLearning-KaixinWang/output_17_0.png)
+![png](output_18_0.png)
 
 
      2. Boxplots
@@ -306,7 +320,7 @@ plt.show()
 ```
 
 
-![png](OSCR-MachineLearning-KaixinWang/output_19_0.png)
+![png](output_20_0.png)
 
 
 
@@ -333,7 +347,7 @@ plt.show()
 ```
 
 
-![png](OSCR-MachineLearning-KaixinWang/output_20_0.png)
+![png](output_21_0.png)
 
 
     3. scatterplots
@@ -359,7 +373,7 @@ plt.show()
 ```
 
 
-![png](OSCR-MachineLearning-KaixinWang/output_22_0.png)
+![png](output_23_0.png)
 
 
     4. histograms and density plots
@@ -390,7 +404,7 @@ plt.show()
 ```
 
 
-![png](/OSCR-MachineLearning-KaixinWang/output_24_0.png)
+![png](output_25_0.png)
 
 
 Variable Selection and Modeling
@@ -466,12 +480,12 @@ for var, coef in zip(variables, model.coef_):
     print(var, coef)
 ```
 
-    cadmium -13.39199000210099
-    copper 0.053658632763891025
-    zinc 0.423465844858694
-    elev -3.253112769849327
+    cadmium -13.391990002100986
+    copper 0.05365863276389149
+    zinc 0.42346584485869393
+    elev -3.2531127698493183
     dist 14.509965024252311
-    lime -23.51405840547695
+    lime -23.514058405476963
     
 
 build a linear model using `statsmodel` package
@@ -497,8 +511,8 @@ print(results.summary())
     Dep. Variable:                   lead   R-squared:                       0.948
     Model:                            OLS   Adj. R-squared:                  0.945
     Method:                 Least Squares   F-statistic:                     346.6
-    Date:                Mon, 28 Oct 2019   Prob (F-statistic):           2.35e-59
-    Time:                        22:13:00   Log-Likelihood:                -467.76
+    Date:                Tue, 29 Oct 2019   Prob (F-statistic):           2.35e-59
+    Time:                        09:18:05   Log-Likelihood:                -467.76
     No. Observations:                 101   AIC:                             947.5
     Df Residuals:                      95   BIC:                             963.2
     Df Model:                           5                                         
@@ -572,11 +586,11 @@ true_val = y_train.copy()
 diagnosticsPlots(pred_val, true_val)
 ```
 
-    Average of residuals:  -8.397770927493382e-13
+    Average of residuals:  -9.60639708594472e-13
     
 
 
-![png](OSCR-MachineLearning-KaixinWang/output_43_1.png)
+![png](output_44_1.png)
 
 
 training and testing Root-Mean-Square Error (RMSE)
@@ -659,7 +673,7 @@ R2_test = model2.score(X_test, y_test)
 print("Testing set R-squared", R2_test)
 ```
 
-    Training set R-squared 0.9424059338188305
+    Training set R-squared 0.9424059338188308
     Testing set R-squared 0.954472865577916
     
 
@@ -670,9 +684,9 @@ for var, coef in zip(variables, model2.coef_):
     print(var, coef)
 ```
 
-    cadmium -14.916823671628368
-    copper -0.04180596932245491
-    zinc 0.42490749819042956
+    cadmium -14.916823671628372
+    copper -0.041805969322452396
+    zinc 0.4249074981904297
     
 
 using `statsmodel` ordinary linear regrssion module
@@ -690,8 +704,8 @@ print(results.summary())
     Dep. Variable:                   lead   R-squared:                       0.942
     Model:                            OLS   Adj. R-squared:                  0.941
     Method:                 Least Squares   F-statistic:                     529.1
-    Date:                Mon, 28 Oct 2019   Prob (F-statistic):           5.81e-60
-    Time:                        22:13:02   Log-Likelihood:                -472.96
+    Date:                Tue, 29 Oct 2019   Prob (F-statistic):           5.81e-60
+    Time:                        09:18:06   Log-Likelihood:                -472.96
     No. Observations:                 101   AIC:                             953.9
     Df Residuals:                      97   BIC:                             964.4
     Df Model:                           3                                         
@@ -725,11 +739,11 @@ true_val = y_train.copy()
 diagnosticsPlots(pred_val, true_val)
 ```
 
-    Average of residuals:  -1.3338505217833169e-12
+    Average of residuals:  -1.3502422502419408e-12
     
 
 
-![png](OSCR-MachineLearning-KaixinWang/output_57_1.png)
+![png](output_58_1.png)
 
 
 
