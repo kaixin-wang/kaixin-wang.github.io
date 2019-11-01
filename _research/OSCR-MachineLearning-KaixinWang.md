@@ -1,7 +1,8 @@
 ---
-title: "Online Statistical Computing Reference (OSCR) Project - Machine Learning Module"
+title: "Machine Learning Module in OSCR"
 collection: research
-permalink: /research/OSCR_MachineLearning
+excerpt: "Part I of Machine Learning Module: Linear Regression Module"
+permalink: /research/OSCR_MachineLearning_MLR
 ---
 
 ### OSCR Machine Learning in Python
