@@ -392,14 +392,7 @@ for i, var in enumerate(soil.columns.values):
         axs[1, i-int(n/2)].set_xlabel(var, fontsize = 'large')
         continue
     if i < int(n/2):
-        #axs[0, i].hist(soil[var], color = colors[i], alpha = 0.8)
-        #axs[0, i].set_xlabel(var, fontsize = 'large')
-        # add density plot
         sns.distplot(soil[var], color = colors[i], ax = axs[0, i])
-        #kde = gaussian_kde(soil[var])
-        #xaxis = np.linspace(min(soil[var]), max(soil[var]), 20)
-        #axs[0, i].plot(xaxis, kde(xaxis) * 100)
-        
     else:
         sns.distplot(soil[var], color = colors[i-int(n/2)], ax = axs[1, i-int(n/2)])
         
