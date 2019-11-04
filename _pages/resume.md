@@ -34,11 +34,11 @@ Employments
   * *Supervisor*: Shanrui Zhang
 
 * University of California, Los Angeles, *Reader at the Department of Statistics*
-  * *Summary*: graded the assignments and quizzes of around seventy students in an upper-division Statistics course
+  * *Summary*: grading the assignments and quizzes of around seventy students in an upper-division Statistics course
   * *Supervisor*: Professor Akram Almohalwas
   
  * De Anza College, *Mathematics, Statisitcs and Chemistry Tutor*
-    * *Summary*: helped students at the drop-in tables and meeting with students on a weekly basis
+    * *Summary*: helping students with their learning in Statistics, Mathematics and Chemistry at the Stduent Success Center (SSC)
     * *Supervisor*: Chanel Huynh 
   
 Skills
