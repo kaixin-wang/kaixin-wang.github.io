@@ -11,7 +11,7 @@ redirect_from:
 
 Welcome to Kaixin's Website!
 
-I'm a senior undergraduate at University of California, Los Angeles (UCLA), majoring in Statistics and Applied Mathematics.
+I'm a senior undergraduate at University of California, Los Angeles (UCLA), majoring in Statistics and Applied Mathematics, with a Specialization in Computing.
 
 My interests of study are Statistics, Data Science and Computer Science. 
 
