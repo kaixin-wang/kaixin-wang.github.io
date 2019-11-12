@@ -11,6 +11,7 @@ permalink: /research/OSCR_MachineLearning_MLR
 
 **&copy; Kaixin Wang**, Fall 2019
 
+A PDF version of the tutorial can be accessed [here](LinearRegression-KaixinWang-blue.pdf).
 
 Module/Package import
 
