@@ -874,7 +874,7 @@ $$R^2_{adj} = 1 - (1 - R^2) \frac{n - 1}{n - p - 1}$$
 
 where $n$ is the sample size and $p$ is the number of predictors used in the model.
 
-- Since $R^2_{adj}$ of the full model is 0.945, while the $R^2_{adj}$ of the reduced model is 0.941, we observe that the model doens't obtain very much improvement by adding three additional predictors.
+Since $R^2_{adj}$ of the full model is 0.945, while the $R^2_{adj}$ of the reduced model is 0.941, we observe that the model doens't obtain very much improvement by adding three additional predictors.
 
 #### Summary of the module
 
