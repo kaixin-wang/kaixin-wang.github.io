@@ -874,7 +874,7 @@ $$R^2_{adj} = 1 - (1 - R^2) \frac{n - 1}{n - p - 1}$$
 
 where $n$ is the sample size and $p$ is the number of predictors used in the model.
 
-Since $R_{adj}^2$ of the full model is 0.945, while the $R_{adj}^2$ of the reduced model is 0.945, which is an improvement, we observe that the reduced model has a lower model complexity while maintaining a good prediction performance. 
+Since $R_{adj}^2$ of the full model is 0.945, while the $R_{adj}^2$ of the reduced model is 0.946, which is an improvement, we observe that the reduced model has a lower model complexity while maintaining a good prediction performance. 
 
 #### Summary of the module
 
