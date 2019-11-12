@@ -1,9 +1,17 @@
+---
+title: "Machine Learning Module in OSCR"
+collection: research
+excerpt: "Part I of Machine Learning Module: Linear Regression Module"
+permalink: /research/OSCR_MachineLearning_LinearRegression
+---
+
 ### OSCR Machine Learning in Python
 
 **Linear Regression Module**
 
 **&copy; Kaixin Wang**, Fall 2019
 
+A PDF version of the tutorial can be accessed [here](LinearRegression-KaixinWang-blue.pdf)
 
 
 Module/Package import
@@ -264,7 +272,7 @@ soil.corr()["lead"].sort_values()
 ```
 
 
-![png](output_16_0.png)
+![png](OSCR-MachineLearning-KaixinWang/output_16_0.png)
 
 
 
@@ -302,7 +310,7 @@ plt.show()
 ```
 
 
-![png](output_17_0.png)
+![png](OSCR-MachineLearning-KaixinWang/output_17_0.png)
 
 
 
@@ -325,7 +333,7 @@ plt.show()
 ```
 
 
-![png](output_18_0.png)
+![png](OSCR-MachineLearning-KaixinWang/output_18_0.png)
 
 
      2. Boxplots
@@ -340,7 +348,7 @@ plt.show()
 ```
 
 
-![png](output_20_0.png)
+![png](OSCR-MachineLearning-KaixinWang/output_20_0.png)
 
 
 
@@ -367,7 +375,7 @@ plt.show()
 ```
 
 
-![png](output_21_0.png)
+![png](OSCR-MachineLearning-KaixinWang/output_21_0.png)
 
 
     3. scatterplots
@@ -393,7 +401,7 @@ plt.show()
 ```
 
 
-![png](output_23_0.png)
+![png](OSCR-MachineLearning-KaixinWang/output_23_0.png)
 
 
     4. histograms and density plots
@@ -417,7 +425,7 @@ plt.show()
 ```
 
 
-![png](output_25_0.png)
+![png](OSCR-MachineLearning-KaixinWang/output_25_0.png)
 
 
 Variable Selection and Modeling
@@ -603,7 +611,7 @@ diagnosticsPlots(pred_val, true_val)
 
 
 
-![png](output_44_1.png)
+![png](OSCR-MachineLearning-KaixinWang/output_44_1.png)
 
 
 training and testing Root-Mean-Square Error (RMSE)
@@ -756,7 +764,7 @@ diagnosticsPlots(pred_val, true_val)
 
 
 
-![png](output_58_1.png)
+![png](OSCR-MachineLearning-KaixinWang/output_58_1.png)
 
 
 
