@@ -258,6 +258,8 @@ n = soil.shape[1]
 
 #### Exploratory Data Analysis (EDA)
 
+Let suppose that the variable we are intereted in is the variable `lead`.
+
     1. Correlation Heatmap
 
 
