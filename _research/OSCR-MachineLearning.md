@@ -13,7 +13,7 @@ permalink: /research/OSCR_MachineLearning_LinearRegression
 
 A PDF version of the tutorial can be accessed [here](LinearRegression-KaixinWang-blue.pdf)
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTR6XhO4bl9mdJ_Lx0ak35zau40nL__u64CBswcppBZTYv9vcvnt0cQacs97cyJ2TT6zZT71gbKPRMH/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTR6XhO4bl9mdJ_Lx0ak35zau40nL__u64CBswcppBZTYv9vcvnt0cQacs97cyJ2TT6zZT71gbKPRMH/embed?start=false&loop=false&delayms=3000" frameborder="0" width="740" height="445" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 Module/Package import
 
