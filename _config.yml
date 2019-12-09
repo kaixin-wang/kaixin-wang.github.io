@@ -12,7 +12,7 @@ description              : &description "Kaixin's Personal Website"
 url                      : https://kaixin-wang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "kaixin-wang/kaixin-wang.github.io"
-teaser                   :  "thumbnail.pgn" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   :  "site-logo.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
